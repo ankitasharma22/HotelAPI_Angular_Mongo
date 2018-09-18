@@ -1,0 +1,20 @@
+<section class = "card-bg">
+  <section  class = "card-collection">
+    <section *ngFor="let hotel of hotels" class = "search-card"> 
+      <div>
+        <img src="{{ hotel.HotelLogo }}" class = "hotel-image">
+      </div>
+      <div class = "rating">
+        <h2 class = "hotel-name" >{{ hotel.HotelName }}</h2>
+        <span *ngFor="let item of getArray(hotel.HotelRating);" class="fa fa-star checked"></span>
+      </div>
+      <div class="address-button">
+        <p class = "address">{{ hotel.HotelAddress }}</p>
+        <input *ngIf = "hotel.category == 1" type="button" class = "book-button green" value = "Book">
+        <input *ngIf = "hotel.category == 2" type="button" class = "book-button yellow" value = "Partially Available"> 
+        <input *ngIf = "hotel.category == 3" type="button" class = "book-button red" value = "Not Available">
+        <p *ngIf = "hotel.category == 2" class = "avail"> Availability: {{hotel.StartDate}} to {{hotel.EndDate}}</p>   
+      </div>
+    </section>
+  </section>
+</section>

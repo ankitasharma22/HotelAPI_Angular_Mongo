@@ -1,0 +1,42 @@
+
+<div class=" button-types">
+<div class = "heading">
+  <h1>Button</h1>
+</div>
+  <p>The button tag defines a clickable button.
+      Inside a button tag element you can put content, like text or images. This is the difference between this element and buttons created with the input element.</p>
+<div class="buttons-class">
+  <div class="left-button">
+    <button (click)="getPrimary()">Primary</button>
+  </div>
+  <div>
+    <button (click)="getPartial()">Partial</button>
+  </div>
+  <div class="right-button">
+    <button (click)="getNotAvailable()">NotAvailaible</button>
+  </div>
+
+  </div>
+ 
+ <!-- <app-buttontype [bdescription]="btype">-->
+<div class="buttons-demo-class">
+ <div class="primary-button" *ngIf=primary> 
+
+
+
+
+         <input  type="button" class = "book-button green" value = "Book" (click)="primaryclick()">
+         <p *ngIf="buttonclick==1">&lt;input  type="button" class = "book-button green" value = "Book" (click)="primaryclick()"&gt;</p>
+</div>
+<div class="primary-button button-partial-demo" *ngIf=partial>
+          <input type="button" class = "book-button yellow" value = "Partially Available" (click)="partialclick()"> 
+         <p *ngIf="buttonclick==2"> &lt;input type="button" class = "book-button yellow" value = "Partially Available" (click)="partialclick()"&gt;</p>
+        
+</div>
+<div class="primary-button" *ngIf=notAvailable>
+     <input type="button" class = "book-button red" value = "Not Available" (click)="notavailableclick()">  
+     <p *ngIf="buttonclick==3">&lt;input type="button" class = "book-button red" value = "Not Available" (click)="notavailableclick()"&gt;</p>
+  </div>
+</div>
+</div>
+

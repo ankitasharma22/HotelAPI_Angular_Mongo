@@ -1,0 +1,137 @@
+.button-types p {
+	width: 100%; 
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.left-button {
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px; 
+}
+.left-button button {
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px; 
+}
+.right-button {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px; 
+}
+.right-button button {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.book-button {
+	width: 250px;
+	font-size: 20px;
+	padding: 10px;
+	letter-spacing: 0.1rem;
+	color: #ffffff;
+	border: none;
+	border-radius: 50px;
+}
+.red {
+	background-color: #a91b0d; 
+}
+.yellow {
+	background-color: #EB9605;
+}
+.green {
+	background-color: #008000;
+}
+.button-types {
+	display: flex;
+}
+.primary-button {
+	margin: 50px auto;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.buttons-class {
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.buttons-class div {
+	width: 200px;
+	text-align: center;
+}
+.buttons-class button {
+	width: 100%;
+	border: 0px;
+	background-color: #25274d;
+	color: white;
+	font-size: 1.7em;
+	font-weight: lighter;
+}
+.buttons-class button:hover {
+	background-color: #f5deb3;
+	color: black;
+}
+.button-partial-demo button {
+	border: 0px solid;
+}
+.button-types {
+	display: block;
+}
+.button-demo{
+	margin: 0 auto;
+}
+button:hover {
+	background-color: #7CA7D8;;
+}
+.heading {
+	background-color: #25274d;
+	color: white;
+	text-align: center;
+	border-radius: 50px;
+	margin:20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 430px) {
+	.buttons-class div {
+		width: 200px;
+		background-color: #072f5f;
+		text-align: center;
+	}
+	.buttons-class {
+		margin: 0 auto;
+		margin-top: 50px;
+		display: flex;
+		border-bottom: 1px solid;
+		width: 100%;
+	}
+	.buttons-class button {
+		width: 100%;
+		border: 0px;
+		background-color: #072f5f;
+		color: white;
+		font-size: 1em;
+		font-weight: lighter;
+	}
+}
+@media only screen and (max-width: 430px) {
+	.buttons-class div {
+		width: 200px;
+		background-color: #072f5f;
+		text-align: center;
+	}
+	.buttons-class {
+		margin: 0 auto;
+		margin-top: 50px;
+		display: flex;
+		border-bottom: 1px solid;
+		width: 100%;
+	}
+	.buttons-class button {
+		width: 100%;
+		border: 0px;
+		background-color: #072f5f;
+		color: white;
+		font-size: 1.5em;
+		font-weight: lighter;
+	}
+}

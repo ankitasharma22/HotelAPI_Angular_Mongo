@@ -1,0 +1,45 @@
+#check {
+	margin-top: 50px;
+}
+.input-type-demo {
+	margin-top: 45px;
+	text-align: center;
+}
+.heading {
+	background-color: #25274d;
+	color: white;
+	text-align: center;
+	border-radius: 50px;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.calender-type p {
+	margin-top: 20px;
+}
+input[type="date"] {
+	width: 200px;
+}
+@media only screen and (max-width: 600px) {
+	.input-type-demo {
+		margin-left: 0px;
+		text-align: center;
+	}
+	input[type="date"] {
+		margin-left: 0px;
+	}
+	#check {
+		margin-left: 0px;
+	}
+}
+@media only screen and (max-width: 814px) {
+	.input-type-demo {
+		margin-left: 0px;
+		text-align: center;
+	}
+	input[type="date"] {
+		margin-left: 0px;
+	}
+	#check {
+		margin-left: 0px;
+	}
+}

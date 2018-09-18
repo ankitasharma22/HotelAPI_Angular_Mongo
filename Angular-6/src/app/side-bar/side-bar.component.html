@@ -1,0 +1,14 @@
+<sidebar-header></sidebar-header>
+<div class="main-container">
+    <div class="side-bar">
+        <div class="button"><button (click)="button()">Button</button></div>
+        <div class="input"><button (click)="input()">Input</button></div>
+        <div class="panel"><button (click)="calender()">Calender</button></div>
+    </div>
+    <div class="side-content" >
+        <app-button-description *ngIf="tagType == 1"></app-button-description>
+        <app-input *ngIf="tagType == 2"></app-input>
+        <app-calender *ngIf="tagType == 3"></app-calender>
+    </div>
+</div>
+<footer></footer>

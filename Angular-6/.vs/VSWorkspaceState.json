@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\e2e",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\button-description",
+    "\\src\\app\\filter-section",
+    "\\src\\app\\getHotel",
+    "\\src\\app\\header",
+    "\\src\\app\\search-result",
+    "\\src\\app\\side-bar"
+  ],
+  "SelectedNode": "\\src\\app\\button-description\\button-description.component.html",
+  "PreviewInSolutionExplorer": false
+}

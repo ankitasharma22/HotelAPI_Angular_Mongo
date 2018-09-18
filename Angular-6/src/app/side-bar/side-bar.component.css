@@ -1,0 +1,65 @@
+.side-bar {
+  width: 250px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#buttonspeak {
+  display: none;
+}
+.side-bar button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 20px;
+  font-weight: lighter;
+  height: 50px;
+  min-width: 100%;
+  width: auto;
+  border: 0px;
+}
+.side-bar button:hover {
+ background-color: #386895;
+ color: #ffffff;
+}
+.button, .input, .panel {
+  height: 50px;
+  margin: 0 auto;
+  background-color: #1565c0;
+  border: 1px;
+}
+.main-container {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex; 
+  margin-left: 2px;
+}
+.side-content {
+  width: 100%;
+  padding: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .side-bar {
+    width: 100%;
+  }
+  .side-bar button {
+    min-width: 100%;
+  }
+  .side-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .main-container {
+    display: block;
+    width: auto;
+  }
+  .side-bar {
+    margin: 0 auto;
+    border: none;
+  }
+  .side-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
